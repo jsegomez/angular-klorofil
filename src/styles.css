@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+.active{
+    color: #00A0F0 !important;
+    font-weight: 700;    
+}
+
+body {
+    min-width: fit-content;
+    min-height: fit-content;
+}

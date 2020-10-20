@@ -1,0 +1,14 @@
+.container-custom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;    
+}
+
+.login{
+    padding: 20px 20px;    
+    width: 500px;
+    background: #FFFFFF;
+}
+
+

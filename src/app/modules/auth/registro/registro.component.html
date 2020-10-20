@@ -1,0 +1,35 @@
+<div class="container-custom">
+    <div class="content login rounded shadow-lg animate__animated animate__flipInY">
+        <div class="header">
+            <div class="logo text-center"><img src="assets/img/logo-dark.png" alt="Klorofil Logo"></div>
+            <p class="lead">Registro</p>
+        </div>
+        <form class="form-auth-small" action="index.php">
+            <div class="form-group">
+                <label for="nombre" class="control-label sr-only">Nombre</label>
+                <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+            </div>
+            <div class="form-group">
+                <label for="apellido" class="control-label sr-only">Apellido</label>
+                <input type="text" class="form-control" id="apellido" placeholder="Apellido">
+            </div>
+            <div class="form-group">
+                <label for="email" class="control-label sr-only">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <label for="password" class="control-label sr-only">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Contraseña">
+            </div>
+            <div class="form-group" style="margin-bottom: 30px;">
+                <label for="password2" class="control-label sr-only">Password</label>
+                <input type="password" class="form-control" id="password2" placeholder="Confirmar contraseña">
+            </div>            
+
+            <button type="submit" class="btn btn-primary btn-lg btn-block">REGISTRARSE</button>
+            <div class="bottom">
+                <span class="helper-text">¿Ya tienes una cuenta? <a [routerLink]="['/login']">iniciar sesión</a></span>
+            </div>
+        </form>
+    </div> 
+</div>
